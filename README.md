@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Aurora Testbed Management Center
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project provides researchers with a Testbed Management Centre that can receive and visualize data from multiple sources. A research intersection has been setup at the UBC Campus where students and researchers can safely configure roadside equipment and test new sensors and smart traffic devices.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+* The system architecture of this project is grouped into two major sections, the Testbed Management Center(TMC) and the Mock Intersection. The TMC shown on the left side is a command center designed to monitor live traffic information and the Mock Intersection contains a system of sensors and controllers designed to collect traffic information. 
 
-### `npm start`
+![Alt text](https://github.com/dahiya18/Capstone_webapp/blob/main/sys_arch.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</br>
+</br>
+</br>
+</br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* The mock intersection contains some sensory units whose feeds need to be displayed in a web interface.
+![Alt text](https://github.com/dahiya18/Capstone_webapp/blob/main/sensor_units.png)
 
-### `npm test`
+</br>
+</br>
+</br>
+</br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* The traffic signal controller is responsible for the signal phase timing of the traffic lights and the V2X Hub acts as the processing unit responsible for relaying messages to the TMC.
+![Alt text](https://github.com/dahiya18/Capstone_webapp/blob/main/hardware_comp.png)
 
-### `npm run build`
+</br>
+</br>
+</br>
+</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* The main deliverable for this project is a functional AURORA Testbed Management Centre (TMC), i.e., a set of servers and monitors that receives data from the smart intersection and visualizes it with the help of Web Interface. 
+![Alt text](https://github.com/dahiya18/Capstone_webapp/blob/main/web_interface.png)
+![Alt text](https://github.com/dahiya18/Capstone_webapp/blob/main/tech_stack.png)
